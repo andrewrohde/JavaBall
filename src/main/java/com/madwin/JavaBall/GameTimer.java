@@ -41,7 +41,7 @@ public class GameTimer extends JTextPane {
 	
 	public GameTimer() {
 		setText("Time: 00:00.00");
-		Color color = new Color(45, 76, 12);
+		Color color = Color.WHITE;
 	    UIDefaults defaults = new UIDefaults();
 	    defaults.put("TextPane[Enabled].backgroundPainter", color);
 	    putClientProperty("Nimbus.Overrides", defaults);
